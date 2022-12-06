@@ -1,0 +1,12 @@
+IQ-TREE multicore version 2.2.0.5 COVID-edition for Linux 64-bit built Jul 18 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i33 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s T28_ConcatLoci.phylip -m GTR+I+G -p T28_ConcatLoci.charSets -B 1000
+Seed:    682766 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec  5 20:33:52 2022
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading partition model file T28_ConcatLoci.charSets ...
+ERROR: Cannot read file T28_ConcatLoci.charSets

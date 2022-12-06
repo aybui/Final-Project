@@ -1,0 +1,1094 @@
+IQ-TREE multicore version 2.2.0.5 COVID-edition for Linux 64-bit built Jul 18 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i32 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s T28_ConcatLoci.phylip -m GTR+I+G -p T28_ConcatLoci.charSets -B 1000
+Seed:    426296 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec  5 20:27:45 2022
+Kernel:  AVX+FMA - 1 threads (1 CPU cores detected)
+
+Reading partition model file T28_ConcatLoci.charSets ...
+Reading alignment file T28_ConcatLoci.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0518858 secs using 54.85% CPU
+Alignment has 28 sequences with 53261 columns, 11945 distinct patterns
+4480 parsimony-informative, 3026 singleton sites, 45755 constant sites
+WARNING: Some sequence names are changed as follows:
+I21914_APH_Encarsia_bimaculata_seq1 -> I21914___APH_Encarsia_bimaculata_seq1
+
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0016704 secs using 97.88% CPU
+   1  I21914___APH_Encarsia_bimaculata_seq1      39.30%    passed     43.11%
+   2  I21921_APH_Centrodora_sp_seq1              20.39%    passed     75.42%
+   3  I21928_EUL_Euderus_sp_seq1                 19.21%    failed      0.53%
+   4  I21958_EUP_Anastus_sp_seq1                 15.96%    failed      0.04%
+   5  I23224_ENC_Anagyrus_sp_seq1                21.90%    passed     54.57%
+   6  I23255_ENC_Trjapitzinellus_obscurus_seq1    8.82%    failed      0.94%
+   7  I23969_APH_Coccophagus_philippiae_seq1     57.82%    passed      6.26%
+   8  I23983_ENC_Eusemion_cornigerum_seq1        37.52%    passed     78.13%
+   9  I23984_ENC_Ooencyrtus_kuvanae_seq1         40.78%    passed     18.63%
+  10  I23985_ENC_Metaphycus_sp_seq1              24.24%    passed     23.70%
+  11  I23986_ENC_Cheiloneurus_fulvescens_seq1    11.46%    passed     15.27%
+  12  I23988_ENC_Mayridia_myrlea_seq1            18.63%    passed     99.72%
+  13  I23989_ENC_Psyllaephagus_sp_seq1           12.68%    failed      0.32%
+  14  I23990_ENC_Acerophagus_flavus_seq1         47.55%    passed     70.71%
+  15  I23991_ENC_Austroencyrtus_sp_seq1          10.07%    passed     95.20%
+  16  I23992_ENC_Ceballasia_dusmeti_seq1         43.03%    passed     66.61%
+  17  I23993_ENC_Aenastus_sp_seq1                17.08%    passed     54.10%
+  18  I23994_ENC_Hexacladia_sp_seq1              28.23%    passed     14.43%
+  19  I23995_ENC_Ericydnus_sp_seq1               13.94%    passed     24.37%
+  20  I24010_ENC_Calosota_vernalis_seq1           8.41%    passed     85.75%
+  21  I24058_ENC_Savzdargia_hofferi_seq1         36.41%    passed     34.75%
+  22  I26378_MYR_Gonatocerus_fuscicornis_seq1    39.35%    failed      0.26%
+  23  I26414_APH_Cales_berryi_seq1               28.65%    passed     61.22%
+  24  I27384_MYR_Anagrus_doanei_seq1             46.07%    failed      0.00%
+  25  I27399_EUL_Elachertus_cacoeciae_seq1       22.90%    failed      1.54%
+  26  I27444_ENC_Savzdargia_hofferi_seq1         18.98%    failed      2.75%
+  27  I27447_ENC_Charitopus_sp_seq1              22.51%    passed     72.57%
+  28  I8134_ENC_Encyrtus_sp_seq1                 61.91%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                      27.64%  9 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Identifying sites to remove: done in 0.000112806 secs using 99.29% CPU
+Identifying sites to remove: done in 5.51865e-05 secs using 99.66% CPU
+Identifying sites to remove: done in 4.32283e-05 secs using 97.16% CPU
+Identifying sites to remove: done in 7.31573e-05 secs using 75.18% CPU
+Identifying sites to remove: done in 0.000108596 secs using 63.54% CPU
+Identifying sites to remove: done in 0.000108983 secs using 100% CPU
+Identifying sites to remove: done in 0.000178352 secs using 99.24% CPU
+Identifying sites to remove: done in 0.000107519 secs using 93.01% CPU
+Identifying sites to remove: done in 7.72104e-05 secs using 98.43% CPU
+Identifying sites to remove: done in 7.31014e-05 secs using 98.49% CPU
+Identifying sites to remove: done in 9.3285e-05 secs using 98.62% CPU
+Identifying sites to remove: done in 0.000200309 secs using 99.85% CPU
+Identifying sites to remove: done in 6.7126e-05 secs
+Identifying sites to remove: done in 4.66816e-05 secs
+Identifying sites to remove: done in 5.78091e-05 secs
+Identifying sites to remove: done in 5.41918e-05 secs
+Identifying sites to remove: done in 4.25652e-05 secs
+Identifying sites to remove: done in 3.20077e-05 secs
+Identifying sites to remove: done in 5.17964e-05 secs
+Identifying sites to remove: done in 0.000103999 secs using 95.19% CPU
+Identifying sites to remove: done in 4.55454e-05 secs using 98.8% CPU
+Identifying sites to remove: done in 0.000129964 secs using 99.26% CPU
+Identifying sites to remove: done in 8.70377e-05 secs using 99.96% CPU
+Identifying sites to remove: done in 7.91438e-05 secs using 98.55% CPU
+Identifying sites to remove: done in 0.000114236 secs using 96.29% CPU
+Identifying sites to remove: done in 0.000100907 secs using 99.1% CPU
+Identifying sites to remove: done in 3.9719e-05 secs using 98.19% CPU
+Identifying sites to remove: done in 6.37509e-05 secs using 97.25% CPU
+Identifying sites to remove: done in 0.000242297 secs using 99.88% CPU
+Identifying sites to remove: done in 0.000354536 secs using 99.57% CPU
+Identifying sites to remove: done in 3.96706e-05 secs using 95.79% CPU
+Identifying sites to remove: done in 8.23066e-05 secs using 98.41% CPU
+Identifying sites to remove: done in 6.30729e-05 secs
+Identifying sites to remove: done in 6.62282e-05 secs
+Identifying sites to remove: done in 0.000124604 secs
+Identifying sites to remove: done in 0.00013046 secs
+Identifying sites to remove: done in 0.00010404 secs
+Identifying sites to remove: done in 7.01584e-05 secs
+Identifying sites to remove: done in 7.7989e-05 secs
+Identifying sites to remove: done in 8.18931e-05 secs
+Identifying sites to remove: done in 5.38304e-05 secs
+Identifying sites to remove: done in 4.03374e-05 secs
+Identifying sites to remove: done in 6.24768e-05 secs
+Identifying sites to remove: done in 4.49717e-05 secs using 97.84% CPU
+Identifying sites to remove: done in 8.6274e-05 secs using 99.68% CPU
+Identifying sites to remove: done in 6.91973e-05 secs using 99.71% CPU
+Identifying sites to remove: done in 9.31956e-05 secs using 98.72% CPU
+Identifying sites to remove: done in 4.08776e-05 secs using 97.85% CPU
+Identifying sites to remove: done in 5.49965e-05 secs using 100% CPU
+Identifying sites to remove: done in 3.72939e-05 secs using 61.67% CPU
+Identifying sites to remove: done in 7.10115e-05 secs using 99.98% CPU
+Identifying sites to remove: done in 9.50322e-05 secs using 98.91% CPU
+Identifying sites to remove: done in 7.6022e-05 secs using 98.66% CPU
+Identifying sites to remove: done in 7.89165e-05 secs using 98.84% CPU
+Identifying sites to remove: done in 4.33102e-05 secs using 99.28% CPU
+Identifying sites to remove: done in 6.28121e-05 secs using 98.71% CPU
+Identifying sites to remove: done in 8.59536e-05 secs using 98.89% CPU
+Identifying sites to remove: done in 3.89777e-05 secs using 97.49% CPU
+Identifying sites to remove: done in 0.000152394 secs using 99.74% CPU
+Identifying sites to remove: done in 0.000147983 secs using 99.34% CPU
+Identifying sites to remove: done in 3.81544e-05 secs using 70.77% CPU
+Identifying sites to remove: done in 6.4984e-05 secs
+Identifying sites to remove: done in 7.10785e-05 secs
+Identifying sites to remove: done in 0.000183482 secs
+Identifying sites to remove: done in 0.000139382 secs
+Identifying sites to remove: done in 4.30048e-05 secs using 97.66% CPU
+Identifying sites to remove: done in 5.89639e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 5.83306e-05 secs using 97.72% CPU
+Identifying sites to remove: done in 0.000143975 secs using 99.32% CPU
+Identifying sites to remove: done in 7.25463e-05 secs using 89.6% CPU
+Identifying sites to remove: done in 6.44997e-05 secs using 52.71% CPU
+Identifying sites to remove: done in 7.59847e-05 secs using 98.7% CPU
+Identifying sites to remove: done in 3.51407e-05 secs using 99.6% CPU
+Identifying sites to remove: done in 7.11493e-05 secs using 98.38% CPU
+Identifying sites to remove: done in 0.000117727 secs using 99.38% CPU
+Identifying sites to remove: done in 6.33784e-05 secs using 97.83% CPU
+Identifying sites to remove: done in 6.54757e-05 secs using 90.11% CPU
+Identifying sites to remove: done in 0.000129905 secs using 98.53% CPU
+Identifying sites to remove: done in 6.60382e-05 secs using 98.43% CPU
+Identifying sites to remove: done in 0.000112653 secs using 99.42% CPU
+Identifying sites to remove: done in 6.91637e-05 secs using 98.32% CPU
+Identifying sites to remove: done in 4.70616e-05 secs using 97.74% CPU
+Identifying sites to remove: done in 3.8825e-05 secs using 97.88% CPU
+Identifying sites to remove: done in 5.00046e-05 secs using 97.99% CPU
+Identifying sites to remove: done in 6.96704e-05 secs using 99.04% CPU
+Identifying sites to remove: done in 6.50808e-05 secs using 98.34% CPU
+Identifying sites to remove: done in 9.43281e-05 secs using 99.65% CPU
+Identifying sites to remove: done in 4.80637e-05 secs using 97.79% CPU
+Identifying sites to remove: done in 5.58086e-05 secs using 98.55% CPU
+Identifying sites to remove: done in 5.48027e-05 secs using 89.41% CPU
+Identifying sites to remove: done in 7.07954e-05 secs using 98.88% CPU
+Identifying sites to remove: done in 0.000120744 secs using 98.56% CPU
+Identifying sites to remove: done in 0.000126794 secs using 99.37% CPU
+Identifying sites to remove: done in 4.0032e-05 secs using 97.42% CPU
+Identifying sites to remove: done in 3.28943e-05 secs using 97.28% CPU
+Identifying sites to remove: done in 5.65872e-05 secs using 90.13% CPU
+Identifying sites to remove: done in 4.5117e-05 secs using 97.52% CPU
+Identifying sites to remove: done in 6.37248e-05 secs using 98.86% CPU
+Identifying sites to remove: done in 6.18808e-05 secs using 98.58% CPU
+Identifying sites to remove: done in 0.000169594 secs using 99.65% CPU
+Identifying sites to remove: done in 5.38528e-05 secs using 98.42% CPU
+Identifying sites to remove: done in 3.50252e-05 secs using 99.93% CPU
+Identifying sites to remove: done in 0.000164188 secs using 99.89% CPU
+Identifying sites to remove: done in 6.02789e-05 secs using 99.54% CPU
+Identifying sites to remove: done in 3.95477e-05 secs using 98.62% CPU
+Identifying sites to remove: done in 7.86074e-05 secs using 99.23% CPU
+Identifying sites to remove: done in 3.84077e-05 secs using 98.94% CPU
+Identifying sites to remove: done in 5.5559e-05 secs using 98.99% CPU
+Identifying sites to remove: done in 5.22695e-05 secs using 97.57% CPU
+Identifying sites to remove: done in 9.75132e-05 secs using 99.47% CPU
+Identifying sites to remove: done in 7.63685e-05 secs using 99.52% CPU
+Identifying sites to remove: done in 3.38405e-05 secs using 97.52% CPU
+Identifying sites to remove: done in 6.68429e-05 secs using 98.74% CPU
+Identifying sites to remove: done in 9.20184e-05 secs using 94.55% CPU
+Identifying sites to remove: done in 4.51729e-05 secs using 97.4% CPU
+Identifying sites to remove: done in 4.20101e-05 secs using 97.6% CPU
+Identifying sites to remove: done in 0.0001042 secs using 98.85% CPU
+Identifying sites to remove: done in 0.000166308 secs using 99.21% CPU
+Identifying sites to remove: done in 0.000106823 secs using 95.49% CPU
+Identifying sites to remove: done in 4.60744e-05 secs using 99.84% CPU
+Identifying sites to remove: done in 0.000138998 secs using 99.28% CPU
+Identifying sites to remove: done in 0.000123549 secs using 99.56% CPU
+Identifying sites to remove: done in 6.04838e-05 secs using 97.55% CPU
+Identifying sites to remove: done in 0.000133518 secs using 96.62% CPU
+Identifying sites to remove: done in 5.76973e-05 secs using 98.79% CPU
+Identifying sites to remove: done in 0.000122737 secs using 99.4% CPU
+Identifying sites to remove: done in 6.89402e-05 secs using 98.64% CPU
+Identifying sites to remove: done in 5.57899e-05 secs using 98.58% CPU
+Identifying sites to remove: done in 6.20075e-05 secs using 98.38% CPU
+Identifying sites to remove: done in 4.5415e-05 secs using 99.09% CPU
+Identifying sites to remove: done in 6.00815e-05 secs using 98.2% CPU
+Identifying sites to remove: done in 0.000251766 secs using 99.7% CPU
+Identifying sites to remove: done in 0.000136565 secs using 99.59% CPU
+Identifying sites to remove: done in 4.94048e-05 secs using 97.16% CPU
+Identifying sites to remove: done in 8.4307e-05 secs using 99.64% CPU
+Identifying sites to remove: done in 8.50186e-05 secs using 98.8% CPU
+Identifying sites to remove: done in 4.93564e-05 secs using 97.25% CPU
+Identifying sites to remove: done in 7.47778e-05 secs using 98.96% CPU
+Identifying sites to remove: done in 4.87268e-05 secs using 96.46% CPU
+Identifying sites to remove: done in 7.72588e-05 secs using 93.19% CPU
+Identifying sites to remove: done in 0.000375532 secs using 99.86% CPU
+Identifying sites to remove: done in 0.000302177 secs using 99.94% CPU
+Identifying sites to remove: done in 0.000130855 secs using 98.58% CPU
+Identifying sites to remove: done in 3.45036e-05 secs using 98.54% CPU
+Identifying sites to remove: done in 6.71484e-05 secs using 99.78% CPU
+Identifying sites to remove: done in 9.98192e-05 secs using 99.18% CPU
+Identifying sites to remove: done in 7.85217e-05 secs using 99.34% CPU
+Identifying sites to remove: done in 5.95748e-05 secs using 99.04% CPU
+Identifying sites to remove: done in 6.39372e-05 secs using 98.53% CPU
+Identifying sites to remove: done in 0.000437934 secs using 99.79% CPU
+Identifying sites to remove: done in 7.95834e-05 secs using 98.01% CPU
+Identifying sites to remove: done in 7.217e-05 secs using 98.38% CPU
+Identifying sites to remove: done in 4.7382e-05 secs using 88.64% CPU
+Identifying sites to remove: done in 6.44922e-05 secs using 99.24% CPU
+Identifying sites to remove: done in 5.20684e-05 secs using 97.95% CPU
+Identifying sites to remove: done in 6.11171e-05 secs using 98.17% CPU
+Identifying sites to remove: done in 3.957e-05 secs using 96.03% CPU
+Identifying sites to remove: done in 4.94942e-05 secs using 96.98% CPU
+Identifying sites to remove: done in 5.45643e-05 secs using 98.97% CPU
+Identifying sites to remove: done in 0.000102449 secs using 98.59% CPU
+Identifying sites to remove: done in 7.40737e-05 secs using 98.55% CPU
+Identifying sites to remove: done in 4.4167e-05 secs using 97.36% CPU
+Identifying sites to remove: done in 3.18475e-05 secs using 97.34% CPU
+Identifying sites to remove: done in 9.44622e-05 secs using 99.51% CPU
+Identifying sites to remove: done in 7.88532e-05 secs using 98.92% CPU
+Identifying sites to remove: done in 7.07395e-05 secs using 98.95% CPU
+Identifying sites to remove: done in 9.70624e-05 secs using 76.24% CPU
+Identifying sites to remove: done in 0.000122204 secs using 99.01% CPU
+Identifying sites to remove: done in 6.88918e-05 secs using 98.71% CPU
+Identifying sites to remove: done in 4.83394e-05 secs using 97.23% CPU
+Identifying sites to remove: done in 4.41335e-05 secs using 97.43% CPU
+Identifying sites to remove: done in 7.31312e-05 secs using 99.82% CPU
+Identifying sites to remove: done in 7.18012e-05 secs using 93.31% CPU
+Identifying sites to remove: done in 6.87912e-05 secs using 98.85% CPU
+Identifying sites to remove: done in 0.000128157 secs using 99.1% CPU
+Identifying sites to remove: done in 7.73631e-05 secs using 98.24% CPU
+Identifying sites to remove: done in 4.29712e-05 secs using 97.74% CPU
+Identifying sites to remove: done in 5.41434e-05 secs using 97.89% CPU
+Identifying sites to remove: done in 0.000123359 secs using 98.9% CPU
+Identifying sites to remove: done in 5.54994e-05 secs using 97.3% CPU
+Identifying sites to remove: done in 3.35574e-05 secs using 98.34% CPU
+Identifying sites to remove: done in 3.54163e-05 secs using 98.82% CPU
+Identifying sites to remove: done in 0.000262637 secs using 99.76% CPU
+Identifying sites to remove: done in 0.00011785 secs using 99.28% CPU
+Identifying sites to remove: done in 0.000151511 secs using 99% CPU
+Identifying sites to remove: done in 0.000163183 secs using 99.28% CPU
+Identifying sites to remove: done in 5.61588e-05 secs using 97.94% CPU
+Identifying sites to remove: done in 5.21168e-05 secs using 97.86% CPU
+Identifying sites to remove: done in 4.70467e-05 secs using 97.78% CPU
+Identifying sites to remove: done in 6.85714e-05 secs using 99.17% CPU
+Identifying sites to remove: done in 4.89503e-05 secs using 98.06% CPU
+Identifying sites to remove: done in 5.10104e-05 secs using 98.02% CPU
+Identifying sites to remove: done in 4.88944e-05 secs using 98.17% CPU
+Identifying sites to remove: done in 0.00012568 secs using 95.48% CPU
+Identifying sites to remove: done in 0.000135731 secs using 98.72% CPU
+Identifying sites to remove: done in 5.67771e-05 secs using 98.63% CPU
+Identifying sites to remove: done in 4.45209e-05 secs using 96.58% CPU
+Identifying sites to remove: done in 5.04591e-05 secs using 99.09% CPU
+Identifying sites to remove: done in 0.000113178 secs using 98.96% CPU
+Identifying sites to remove: done in 5.47767e-05 secs using 98.58% CPU
+Identifying sites to remove: done in 5.52423e-05 secs using 97.75% CPU
+Identifying sites to remove: done in 5.51082e-05 secs using 97.99% CPU
+Identifying sites to remove: done in 0.000110891 secs using 99.2% CPU
+Identifying sites to remove: done in 3.53977e-05 secs using 98.88% CPU
+Identifying sites to remove: done in 7.594e-05 secs using 98.76% CPU
+Identifying sites to remove: done in 9.40897e-05 secs using 94.59% CPU
+Identifying sites to remove: done in 0.000104085 secs using 98.96% CPU
+Identifying sites to remove: done in 4.63054e-05 secs using 99.34% CPU
+Identifying sites to remove: done in 4.96805e-05 secs using 98.63% CPU
+Identifying sites to remove: done in 7.22818e-05 secs using 99.61% CPU
+Identifying sites to remove: done in 5.41732e-05 secs using 97.83% CPU
+Identifying sites to remove: done in 9.01073e-05 secs using 93.22% CPU
+Identifying sites to remove: done in 5.03436e-05 secs using 99.32% CPU
+Identifying sites to remove: done in 5.01797e-05 secs using 97.65% CPU
+Identifying sites to remove: done in 0.000105355 secs using 98.71% CPU
+Identifying sites to remove: done in 9.04016e-05 secs using 99.56% CPU
+Identifying sites to remove: done in 7.38986e-05 secs using 98.78% CPU
+Identifying sites to remove: done in 0.000123695 secs using 95.4% CPU
+Identifying sites to remove: done in 5.52163e-05 secs using 97.8% CPU
+Identifying sites to remove: done in 8.01049e-05 secs using 98.62% CPU
+Identifying sites to remove: done in 6.72154e-05 secs using 98.19% CPU
+Identifying sites to remove: done in 6.74091e-05 secs using 99.39% CPU
+Identifying sites to remove: done in 6.01336e-05 secs using 99.78% CPU
+Identifying sites to remove: done in 5.69485e-05 secs using 100.1% CPU
+Identifying sites to remove: done in 0.000119828 secs using 99.31% CPU
+Identifying sites to remove: done in 7.00541e-05 secs using 98.5% CPU
+Identifying sites to remove: done in 7.31274e-05 secs using 98.46% CPU
+Identifying sites to remove: done in 0.000212055 secs using 97.14% CPU
+Identifying sites to remove: done in 4.78551e-05 secs using 98.21% CPU
+Identifying sites to remove: done in 5.01387e-05 secs using 97.73% CPU
+Identifying sites to remove: done in 5.38379e-05 secs using 98.44% CPU
+Identifying sites to remove: done in 8.59573e-05 secs using 98.89% CPU
+Identifying sites to remove: done in 8.27499e-05 secs using 99.09% CPU
+Identifying sites to remove: done in 7.78586e-05 secs using 98.9% CPU
+Identifying sites to remove: done in 0.000151083 secs using 99.28% CPU
+Identifying sites to remove: done in 6.5852e-05 secs using 98.71% CPU
+Identifying sites to remove: done in 5.42179e-05 secs using 97.75% CPU
+Identifying sites to remove: done in 5.22956e-05 secs using 97.52% CPU
+Identifying sites to remove: done in 5.52721e-05 secs using 97.7% CPU
+Identifying sites to remove: done in 0.000305496 secs using 99.84% CPU
+Identifying sites to remove: done in 0.000237979 secs using 56.31% CPU
+Identifying sites to remove: done in 8.04365e-05 secs
+Identifying sites to remove: done in 5.35175e-05 secs
+Identifying sites to remove: done in 4.04529e-05 secs
+Identifying sites to remove: done in 9.03606e-05 secs
+Identifying sites to remove: done in 3.78639e-05 secs using 50.18% CPU
+Identifying sites to remove: done in 8.33124e-05 secs using 70.82% CPU
+Identifying sites to remove: done in 6.48275e-05 secs using 98.72% CPU
+Identifying sites to remove: done in 6.24433e-05 secs using 99.29% CPU
+Identifying sites to remove: done in 8.76673e-05 secs using 98.1% CPU
+Identifying sites to remove: done in 2.73921e-05 secs using 94.92% CPU
+Identifying sites to remove: done in 3.79309e-05 secs using 97.55% CPU
+Identifying sites to remove: done in 6.90632e-05 secs using 98.46% CPU
+Identifying sites to remove: done in 7.04043e-05 secs using 98.01% CPU
+Identifying sites to remove: done in 7.26432e-05 secs using 99.11% CPU
+Identifying sites to remove: done in 8.1189e-05 secs using 98.54% CPU
+Identifying sites to remove: done in 6.62357e-05 secs using 99.64% CPU
+Identifying sites to remove: done in 4.60148e-05 secs using 97.79% CPU
+Identifying sites to remove: done in 0.000136781 secs using 99.43% CPU
+Identifying sites to remove: done in 3.96296e-05 secs using 98.41% CPU
+Identifying sites to remove: done in 9.60715e-05 secs using 98.88% CPU
+Identifying sites to remove: done in 0.000131145 secs using 99.13% CPU
+Identifying sites to remove: done in 8.33347e-05 secs using 98.4% CPU
+Identifying sites to remove: done in 0.000107113 secs using 98.96% CPU
+Identifying sites to remove: done in 4.64991e-05 secs using 98.93% CPU
+Identifying sites to remove: done in 0.000145316 secs using 99.09% CPU
+Identifying sites to remove: done in 8.47988e-05 secs using 99.06% CPU
+Identifying sites to remove: done in 4.82388e-05 secs using 99.5% CPU
+Identifying sites to remove: done in 0.000108663 secs using 99.39% CPU
+Identifying sites to remove: done in 8.94554e-05 secs using 93.9% CPU
+Identifying sites to remove: done in 9.68315e-05 secs using 99.14% CPU
+Identifying sites to remove: done in 6.07222e-05 secs using 98.81% CPU
+Identifying sites to remove: done in 4.78253e-05 secs using 98.27% CPU
+Identifying sites to remove: done in 7.45468e-05 secs using 99.27% CPU
+Identifying sites to remove: done in 8.65459e-05 secs using 99.37% CPU
+Identifying sites to remove: done in 0.000143375 secs using 99.04% CPU
+Identifying sites to remove: done in 8.29995e-05 secs using 98.8% CPU
+Identifying sites to remove: done in 0.000147086 secs using 99.26% CPU
+Identifying sites to remove: done in 6.27302e-05 secs using 98.84% CPU
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	22	270	18	241	GTR+I+G	L1
+2	DNA	24	118	5	109	GTR+I+G	L2
+3	DNA	19	110	1	106	GTR+I+G	L3
+4	DNA	22	156	10	141	GTR+I+G	L5
+5	DNA	23	226	33	178	GTR+I+G	L6
+6	DNA	17	346	17	317	GTR+I+G	L9
+7	DNA	21	456	27	418	GTR+I+G	L10
+8	DNA	25	182	16	164	GTR+I+G	L11
+9	DNA	23	157	16	138	GTR+I+G	L13
+10	DNA	20	164	7	152	GTR+I+G	L14
+11	DNA	21	218	19	178	GTR+I+G	L15
+12	DNA	26	472	38	416	GTR+I+G	L16
+13	DNA	22	130	13	110	GTR+I+G	L17
+14	DNA	17	114	8	101	GTR+I+G	L18
+15	DNA	19	147	7	137	GTR+I+G	L19
+16	DNA	20	137	5	128	GTR+I+G	L21
+17	DNA	17	102	10	87	GTR+I+G	L23
+18	DNA	15	100	6	86	GTR+I+G	L24
+19	DNA	17	130	9	104	GTR+I+G	L26
+20	DNA	25	230	25	197	GTR+I+G	L28
+21	DNA	17	110	8	98	GTR+I+G	L30
+22	DNA	20	340	22	305	GTR+I+G	L31
+23	DNA	21	227	14	206	GTR+I+G	L32
+24	DNA	18	226	12	207	GTR+I+G	L33
+25	DNA	21	218	19	180	GTR+I+G	L35
+26	DNA	22	270	9	254	GTR+I+G	L36
+27	DNA	17	102	6	95	GTR+I+G	L37
+28	DNA	22	170	8	160	GTR+I+G	L39
+29	DNA	25	574	53	485	GTR+I+G	L44
+30	DNA	27	803	106	639	GTR+I+G	L48
+31	DNA	18	110	2	108	GTR+I+G	L52
+32	DNA	24	190	17	167	GTR+I+G	L53
+33	DNA	26	144	7	132	GTR+I+G	L54
+34	DNA	23	168	7	156	GTR+I+G	L58
+35	DNA	23	254	36	191	GTR+I+G	L59
+36	DNA	22	269	41	194	GTR+I+G	L63
+37	DNA	22	247	19	216	GTR+I+G	L64
+38	DNA	17	170	28	127	GTR+I+G	L67
+39	DNA	19	204	11	187	GTR+I+G	L69
+40	DNA	19	204	7	190	GTR+I+G	L71
+41	DNA	20	138	8	124	GTR+I+G	L72
+42	DNA	18	103	4	95	GTR+I+G	L75
+43	DNA	25	134	10	120	GTR+I+G	L85
+44	DNA	17	102	13	81	GTR+I+G	L86
+45	DNA	19	216	14	187	GTR+I+G	L88
+46	DNA	21	142	21	109	GTR+I+G	L89
+47	DNA	23	215	16	186	GTR+I+G	L93
+48	DNA	17	106	6	98	GTR+I+G	L95
+49	DNA	26	131	5	125	GTR+I+G	L97
+50	DNA	17	105	1	102	GTR+I+G	L98
+51	DNA	24	164	10	144	GTR+I+G	L102
+52	DNA	21	188	30	138	GTR+I+G	L104
+53	DNA	19	160	26	120	GTR+I+G	L105
+54	DNA	23	178	14	157	GTR+I+G	L108
+55	DNA	15	112	10	96	GTR+I+G	L113
+56	DNA	20	134	14	113	GTR+I+G	L124
+57	DNA	26	166	22	132	GTR+I+G	L125
+58	DNA	14	112	10	100	GTR+I+G	L126
+59	DNA	23	296	37	232	GTR+I+G	L127
+60	DNA	18	379	51	301	GTR+I+G	L128
+61	DNA	14	103	7	91	GTR+I+G	L129
+62	DNA	22	132	11	115	GTR+I+G	L130
+63	DNA	23	128	7	113	GTR+I+G	L140
+64	DNA	18	514	38	449	GTR+I+G	L144
+65	DNA	23	308	36	250	GTR+I+G	L149
+66	DNA	18	104	6	93	GTR+I+G	L165
+67	DNA	24	140	4	135	GTR+I+G	L167
+68	DNA	22	122	14	105	GTR+I+G	L170
+69	DNA	21	258	59	163	GTR+I+G	L174
+70	DNA	21	170	8	153	GTR+I+G	L182
+71	DNA	18	112	3	105	GTR+I+G	L185
+72	DNA	21	183	17	157	GTR+I+G	L190
+73	DNA	15	102	4	96	GTR+I+G	L191
+74	DNA	25	142	5	133	GTR+I+G	L193
+75	DNA	19	239	28	190	GTR+I+G	L197
+76	DNA	21	155	6	148	GTR+I+G	L198
+77	DNA	22	138	9	123	GTR+I+G	L203
+78	DNA	21	240	47	172	GTR+I+G	L207
+79	DNA	22	147	14	126	GTR+I+G	L208
+80	DNA	23	292	12	268	GTR+I+G	L210
+81	DNA	19	156	13	130	GTR+I+G	L211
+82	DNA	17	106	11	88	GTR+I+G	L224
+83	DNA	15	105	6	97	GTR+I+G	L225
+84	DNA	17	138	7	129	GTR+I+G	L228
+85	DNA	18	143	11	120	GTR+I+G	L231
+86	DNA	21	128	6	116	GTR+I+G	L239
+87	DNA	25	184	12	164	GTR+I+G	L240
+88	DNA	17	108	6	94	GTR+I+G	L242
+89	DNA	23	130	4	126	GTR+I+G	L243
+90	DNA	16	106	10	91	GTR+I+G	L252
+91	DNA	21	149	12	133	GTR+I+G	L253
+92	DNA	20	245	28	189	GTR+I+G	L255
+93	DNA	22	251	36	197	GTR+I+G	L256
+94	DNA	17	102	8	91	GTR+I+G	L257
+95	DNA	15	102	1	99	GTR+I+G	L270
+96	DNA	19	112	4	104	GTR+I+G	L275
+97	DNA	17	125	5	119	GTR+I+G	L281
+98	DNA	23	144	2	141	GTR+I+G	L283
+99	DNA	24	138	7	125	GTR+I+G	L288
+100	DNA	25	350	29	292	GTR+I+G	L290
+101	DNA	22	116	11	101	GTR+I+G	L291
+102	DNA	18	100	7	88	GTR+I+G	L293
+103	DNA	23	317	45	254	GTR+I+G	L295
+104	DNA	17	132	21	106	GTR+I+G	L296
+105	DNA	17	101	4	89	GTR+I+G	L306
+106	DNA	18	202	8	183	GTR+I+G	L311
+107	DNA	16	101	1	96	GTR+I+G	L313
+108	DNA	19	119	6	106	GTR+I+G	L315
+109	DNA	28	250	19	220	GTR+I+G	L318
+110	DNA	18	116	6	107	GTR+I+G	L324
+111	DNA	20	194	34	146	GTR+I+G	L328
+112	DNA	23	127	12	105	GTR+I+G	L330
+113	DNA	19	100	2	94	GTR+I+G	L332
+114	DNA	27	138	7	129	GTR+I+G	L343
+115	DNA	21	203	11	189	GTR+I+G	L348
+116	DNA	17	106	7	99	GTR+I+G	L350
+117	DNA	17	110	5	98	GTR+I+G	L354
+118	DNA	20	248	16	221	GTR+I+G	L359
+119	DNA	26	384	19	363	GTR+I+G	L363
+120	DNA	20	204	25	163	GTR+I+G	L364
+121	DNA	17	124	7	116	GTR+I+G	L369
+122	DNA	24	257	29	218	GTR+I+G	L370
+123	DNA	21	325	17	290	GTR+I+G	L372
+124	DNA	20	162	3	156	GTR+I+G	L373
+125	DNA	18	320	17	292	GTR+I+G	L376
+126	DNA	22	134	4	127	GTR+I+G	L377
+127	DNA	21	247	26	195	GTR+I+G	L379
+128	DNA	22	155	15	133	GTR+I+G	L382
+129	DNA	17	154	4	143	GTR+I+G	L384
+130	DNA	21	168	4	161	GTR+I+G	L392
+131	DNA	17	112	6	103	GTR+I+G	L397
+132	DNA	18	128	16	102	GTR+I+G	L398
+133	DNA	22	550	50	449	GTR+I+G	L410
+134	DNA	23	326	38	260	GTR+I+G	L413
+135	DNA	19	126	4	122	GTR+I+G	L421
+136	DNA	19	230	9	211	GTR+I+G	L423
+137	DNA	21	186	7	176	GTR+I+G	L424
+138	DNA	20	132	5	127	GTR+I+G	L425
+139	DNA	24	150	10	134	GTR+I+G	L426
+140	DNA	20	115	3	104	GTR+I+G	L427
+141	DNA	20	140	16	110	GTR+I+G	L430
+142	DNA	22	898	105	718	GTR+I+G	L439
+143	DNA	26	662	86	526	GTR+I+G	L443
+144	DNA	26	300	39	245	GTR+I+G	L444
+145	DNA	14	102	3	95	GTR+I+G	L446
+146	DNA	22	150	17	129	GTR+I+G	L449
+147	DNA	23	197	22	165	GTR+I+G	L451
+148	DNA	23	155	11	141	GTR+I+G	L452
+149	DNA	25	125	6	116	GTR+I+G	L455
+150	DNA	19	125	9	106	GTR+I+G	L462
+151	DNA	20	970	132	734	GTR+I+G	L463
+152	DNA	20	194	16	167	GTR+I+G	L465
+153	DNA	17	198	16	173	GTR+I+G	L466
+154	DNA	17	109	4	104	GTR+I+G	L467
+155	DNA	18	181	8	170	GTR+I+G	L485
+156	DNA	19	120	10	107	GTR+I+G	L486
+157	DNA	23	150	15	127	GTR+I+G	L491
+158	DNA	16	106	12	90	GTR+I+G	L500
+159	DNA	21	127	3	123	GTR+I+G	L501
+160	DNA	20	118	7	108	GTR+I+G	L503
+161	DNA	20	266	24	222	GTR+I+G	L507
+162	DNA	18	125	17	97	GTR+I+G	L512
+163	DNA	17	118	6	110	GTR+I+G	L514
+164	DNA	19	100	2	96	GTR+I+G	L515
+165	DNA	24	194	14	172	GTR+I+G	L518
+166	DNA	23	149	10	128	GTR+I+G	L520
+167	DNA	19	145	16	116	GTR+I+G	L522
+168	DNA	18	134	15	106	GTR+I+G	L527
+169	DNA	22	252	33	205	GTR+I+G	L528
+170	DNA	23	140	14	110	GTR+I+G	L534
+171	DNA	20	116	10	102	GTR+I+G	L536
+172	DNA	19	116	2	114	GTR+I+G	L537
+173	DNA	19	146	17	117	GTR+I+G	L539
+174	DNA	20	131	8	118	GTR+I+G	L543
+175	DNA	18	142	13	116	GTR+I+G	L544
+176	DNA	27	226	18	197	GTR+I+G	L552
+177	DNA	26	163	10	145	GTR+I+G	L553
+178	DNA	15	110	4	105	GTR+I+G	L561
+179	DNA	17	135	10	121	GTR+I+G	L563
+180	DNA	21	250	25	207	GTR+I+G	L565
+181	DNA	23	136	3	130	GTR+I+G	L566
+182	DNA	18	100	6	90	GTR+I+G	L567
+183	DNA	18	105	0	105	GTR+I+G	L569
+WARNING: No variant sites in partition L569
+184	DNA	23	530	91	375	GTR+I+G	L570
+185	DNA	20	287	28	232	GTR+I+G	L571
+186	DNA	19	370	32	300	GTR+I+G	L572
+187	DNA	23	302	42	214	GTR+I+G	L575
+188	DNA	23	128	6	116	GTR+I+G	L578
+189	DNA	20	130	2	118	GTR+I+G	L582
+190	DNA	18	116	8	105	GTR+I+G	L590
+191	DNA	18	178	8	166	GTR+I+G	L591
+192	DNA	18	108	9	93	GTR+I+G	L592
+193	DNA	19	112	10	101	GTR+I+G	L593
+194	DNA	17	138	5	131	GTR+I+G	L598
+195	DNA	19	298	17	269	GTR+I+G	L601
+196	DNA	21	290	35	236	GTR+I+G	L602
+197	DNA	19	128	5	116	GTR+I+G	L605
+198	DNA	19	114	3	110	GTR+I+G	L606
+199	DNA	22	126	9	112	GTR+I+G	L608
+200	DNA	27	231	30	191	GTR+I+G	L609
+201	DNA	18	134	5	125	GTR+I+G	L611
+202	DNA	20	121	11	106	GTR+I+G	L613
+203	DNA	17	148	8	137	GTR+I+G	L615
+204	DNA	18	272	26	220	GTR+I+G	L616
+205	DNA	17	101	0	100	GTR+I+G	L618
+WARNING: No parsimony-informative sites in partition L618
+206	DNA	18	176	11	146	GTR+I+G	L621
+207	DNA	25	184	9	171	GTR+I+G	L623
+208	DNA	23	218	17	193	GTR+I+G	L626
+209	DNA	18	113	6	101	GTR+I+G	L636
+210	DNA	21	114	2	111	GTR+I+G	L641
+211	DNA	24	160	7	149	GTR+I+G	L644
+212	DNA	20	123	10	110	GTR+I+G	L646
+213	DNA	24	184	4	167	GTR+I+G	L647
+214	DNA	21	118	3	111	GTR+I+G	L650
+215	DNA	25	114	4	109	GTR+I+G	L654
+216	DNA	23	212	24	179	GTR+I+G	L655
+217	DNA	24	188	14	157	GTR+I+G	L656
+218	DNA	18	148	17	110	GTR+I+G	L657
+219	DNA	18	325	17	293	GTR+I+G	L658
+220	DNA	22	123	6	110	GTR+I+G	L659
+221	DNA	21	183	12	167	GTR+I+G	L662
+222	DNA	21	156	10	137	GTR+I+G	L665
+223	DNA	24	152	10	138	GTR+I+G	L670
+224	DNA	22	137	8	126	GTR+I+G	L671
+225	DNA	18	125	7	113	GTR+I+G	L675
+226	DNA	28	202	14	182	GTR+I+G	L680
+227	DNA	24	263	23	235	GTR+I+G	L681
+228	DNA	25	130	11	112	GTR+I+G	L691
+229	DNA	17	169	26	130	GTR+I+G	L693
+230	DNA	22	375	76	251	GTR+I+G	L696
+231	DNA	20	108	7	99	GTR+I+G	L697
+232	DNA	21	122	4	112	GTR+I+G	L698
+233	DNA	20	139	8	129	GTR+I+G	L701
+234	DNA	26	196	20	166	GTR+I+G	L703
+235	DNA	17	191	26	146	GTR+I+G	L705
+236	DNA	23	142	20	109	GTR+I+G	L708
+237	DNA	22	282	48	196	GTR+I+G	L709
+238	DNA	19	151	14	124	GTR+I+G	L710
+239	DNA	23	118	5	105	GTR+I+G	L711
+240	DNA	17	117	6	108	GTR+I+G	L716
+241	DNA	21	137	8	122	GTR+I+G	L717
+242	DNA	26	678	65	579	GTR+I+G	L719
+243	DNA	22	487	54	358	GTR+I+G	L720
+244	DNA	19	174	20	132	GTR+I+G	L724
+245	DNA	23	140	4	136	GTR+I+G	L728
+246	DNA	17	106	4	98	GTR+I+G	L733
+247	DNA	26	172	17	144	GTR+I+G	L738
+248	DNA	14	111	2	107	GTR+I+G	L740
+249	DNA	17	255	7	241	GTR+I+G	L744
+250	DNA	18	158	15	139	GTR+I+G	L746
+251	DNA	18	116	16	93	GTR+I+G	L748
+252	DNA	23	190	7	176	GTR+I+G	L749
+253	DNA	15	100	6	94	GTR+I+G	L751
+254	DNA	16	108	4	103	GTR+I+G	L753
+255	DNA	21	124	14	102	GTR+I+G	L771
+256	DNA	19	174	9	157	GTR+I+G	L777
+257	DNA	17	144	18	109	GTR+I+G	L780
+258	DNA	23	164	13	144	GTR+I+G	L781
+259	DNA	17	197	8	184	GTR+I+G	L782
+260	DNA	15	112	9	98	GTR+I+G	L791
+261	DNA	20	310	18	271	GTR+I+G	L792
+262	DNA	14	102	9	86	GTR+I+G	L793
+263	DNA	20	244	8	224	GTR+I+G	L794
+264	DNA	27	236	17	212	GTR+I+G	L796
+265	DNA	26	180	3	172	GTR+I+G	L802
+266	DNA	26	172	26	131	GTR+I+G	L804
+267	DNA	17	111	4	95	GTR+I+G	L805
+268	DNA	23	256	30	193	GTR+I+G	L808
+269	DNA	17	209	21	170	GTR+I+G	L809
+270	DNA	19	124	3	121	GTR+I+G	L810
+271	DNA	26	230	17	203	GTR+I+G	L812
+272	DNA	26	170	11	152	GTR+I+G	L817
+273	DNA	22	198	24	157	GTR+I+G	L819
+274	DNA	26	136	8	124	GTR+I+G	L820
+275	DNA	21	104	6	93	GTR+I+G	L822
+276	DNA	21	145	8	123	GTR+I+G	L826
+277	DNA	21	206	8	192	GTR+I+G	L832
+278	DNA	27	230	52	148	GTR+I+G	L837
+279	DNA	22	207	9	195	GTR+I+G	L839
+280	DNA	25	294	32	240	GTR+I+G	L843
+281	DNA	20	138	19	108	GTR+I+G	L844
+Degree of missing data: 0.243
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.043 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 426296)...
+
+NOTE: 89 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -179462.563
+Current log-likelihood at step 1: -165191.525
+Current log-likelihood at step 2: -164570.714
+Current log-likelihood at step 3: -164497.385
+Current log-likelihood at step 4: -164460.959
+Current log-likelihood at step 5: -164431.938
+Current log-likelihood at step 6: -164406.215
+Current log-likelihood at step 7: -164384.176
+Current log-likelihood at step 8: -164362.628
+Current log-likelihood at step 9: -164340.823
+Current log-likelihood at step 10: -164323.700
+Current log-likelihood at step 11: -164308.880
+Current log-likelihood at step 12: -164293.752
+Current log-likelihood at step 13: -164282.254
+Current log-likelihood at step 14: -164272.553
+Current log-likelihood at step 15: -164263.904
+Current log-likelihood at step 16: -164256.539
+Current log-likelihood at step 17: -164249.905
+Current log-likelihood at step 18: -164244.232
+Current log-likelihood at step 19: -164238.747
+Current log-likelihood at step 20: -164233.966
+Current log-likelihood at step 21: -164228.567
+Current log-likelihood at step 22: -164224.628
+Current log-likelihood at step 23: -164221.140
+Current log-likelihood at step 24: -164217.912
+Current log-likelihood at step 25: -164214.981
+Current log-likelihood at step 26: -164212.365
+Current log-likelihood at step 27: -164209.907
+Current log-likelihood at step 28: -164207.762
+Current log-likelihood at step 29: -164205.939
+Current log-likelihood at step 30: -164203.954
+Current log-likelihood at step 31: -164201.618
+Current log-likelihood at step 32: -164200.062
+Current log-likelihood at step 33: -164198.656
+Current log-likelihood at step 34: -164197.367
+Current log-likelihood at step 35: -164196.181
+Current log-likelihood at step 36: -164194.938
+Current log-likelihood at step 37: -164193.936
+Current log-likelihood at step 38: -164193.043
+Current log-likelihood at step 39: -164192.170
+Current log-likelihood at step 40: -164191.284
+Current log-likelihood at step 41: -164190.556
+Current log-likelihood at step 42: -164189.902
+Current log-likelihood at step 43: -164189.295
+Current log-likelihood at step 44: -164188.752
+Current log-likelihood at step 45: -164188.202
+Current log-likelihood at step 46: -164187.725
+Current log-likelihood at step 47: -164187.270
+Current log-likelihood at step 48: -164186.762
+Current log-likelihood at step 49: -164186.322
+Current log-likelihood at step 50: -164185.936
+Current log-likelihood at step 51: -164185.566
+Current log-likelihood at step 52: -164185.198
+Current log-likelihood at step 53: -164184.860
+Current log-likelihood at step 54: -164184.523
+Current log-likelihood at step 55: -164184.130
+Current log-likelihood at step 56: -164183.821
+Current log-likelihood at step 57: -164183.517
+Current log-likelihood at step 58: -164183.242
+Current log-likelihood at step 59: -164182.973
+Current log-likelihood at step 60: -164182.700
+Current log-likelihood at step 61: -164182.429
+Current log-likelihood at step 62: -164182.180
+Current log-likelihood at step 63: -164181.589
+Current log-likelihood at step 64: -164181.284
+Current log-likelihood at step 65: -164180.902
+Current log-likelihood at step 66: -164180.651
+Current log-likelihood at step 67: -164180.432
+Current log-likelihood at step 68: -164180.213
+Current log-likelihood at step 69: -164179.995
+Current log-likelihood at step 70: -164179.760
+Current log-likelihood at step 71: -164179.525
+Current log-likelihood at step 72: -164179.305
+Current log-likelihood at step 73: -164179.089
+Current log-likelihood at step 74: -164178.872
+Current log-likelihood at step 75: -164178.650
+Current log-likelihood at step 76: -164178.426
+Current log-likelihood at step 77: -164178.183
+Current log-likelihood at step 78: -164177.948
+Current log-likelihood at step 79: -164177.666
+Current log-likelihood at step 80: -164177.434
+Current log-likelihood at step 81: -164177.186
+Current log-likelihood at step 82: -164176.943
+Current log-likelihood at step 83: -164176.717
+Current log-likelihood at step 84: -164176.494
+Current log-likelihood at step 85: -164176.288
+Current log-likelihood at step 86: -164176.090
+Current log-likelihood at step 87: -164175.903
+Current log-likelihood at step 88: -164175.689
+Current log-likelihood at step 89: -164175.519
+Current log-likelihood at step 90: -164175.358
+Current log-likelihood at step 91: -164175.204
+Current log-likelihood at step 92: -164175.055
+Current log-likelihood at step 93: -164174.911
+Current log-likelihood at step 94: -164174.767
+Current log-likelihood at step 95: -164174.509
+Current log-likelihood at step 96: -164174.340
+Current log-likelihood at step 97: -164174.203
+Current log-likelihood at step 98: -164174.085
+Current log-likelihood at step 99: -164173.970
+Partition-specific rates:  0.559 0.287 0.116 0.703 1.339 0.502 0.624 0.613 0.529 0.488 1.028 0.964 0.704 0.815 0.359 0.609 1.341 1.157 1.397 1.104 0.623 0.657 0.723 0.530 0.823 0.268 0.495 0.508 1.253 1.543 0.140 0.764 0.469 0.528 1.267 2.159 0.821 2.053 0.483 0.571 1.240 0.471 0.673 2.013 0.946 2.263 0.702 0.611 0.283 0.091 0.562 1.996 1.502 1.291 1.163 1.295 1.288 2.135 2.052 1.334 1.033 0.972 0.442 0.578 1.119 0.578 0.150 1.272 2.897 0.853 0.268 0.865 0.671 0.457 1.157 0.234 0.465 2.946 1.533 0.489 1.235 1.543 0.895 0.558 1.438 0.794 0.903 0.680 0.337 1.441 0.596 1.372 1.938 0.887 0.122 0.637 0.345 0.297 0.681 1.200 0.771 0.707 1.254 1.524 0.646 0.407 0.197 0.491 0.796 0.501 1.596 1.187 0.452 0.493 0.737 1.420 0.546 0.710 0.308 1.386 0.634 0.939 0.761 0.136 0.611 0.254 1.275 0.971 0.327 0.237 0.513 1.178 1.075 1.585 0.219 0.313 0.307 1.115 0.648 0.294 1.876 1.529 1.235 1.156 0.592 1.358 1.302 1.320 1.169 1.321 1.506 1.113 1.153 1.049 0.354 0.841 1.023 0.771 0.261 0.902 1.401 1.826 0.663 0.166 0.633 0.995 1.357 1.379 1.497 1.292 1.411 0.140 1.624 0.863 1.390 0.819 0.758 0.299 0.980 0.979 1.473 0.565 0.005 2.080 1.491 0.888 1.895 1.415 0.282 0.664 0.726 0.871 0.738 0.477 0.844 1.625 0.556 0.130 0.617 1.225 0.304 0.936 0.421 1.047 0.030 0.968 0.390 0.702 0.910 0.302 0.333 0.508 0.258 0.386 0.443 1.263 0.757 2.150 0.888 0.524 0.485 0.749 0.381 0.623 1.322 1.059 0.736 0.759 1.643 2.673 0.913 0.373 0.405 1.188 1.312 2.007 2.048 0.871 0.651 0.813 0.526 0.938 1.524 1.370 0.174 0.375 1.643 0.311 0.494 0.911 2.578 0.464 0.564 0.245 0.920 0.499 1.597 0.753 0.517 1.258 0.499 1.475 0.498 0.508 0.209 1.733 0.660 1.455 1.889 0.175 0.602 0.797 1.879 0.502 1.467 0.902 0.624 1.978 0.329 1.303 2.595
+Parameters optimization took 99 rounds (109.975 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000649236 secs using 96.11% CPU
+Computing ML distances took 0.000772 sec (of wall-clock time) 0.000705 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 8.15801e-05 secs using 94.39% CPU
+Constructing RapidNJ tree: done in 0.000194591 secs using 211.2% CPU
+Computing RapidNJ tree took 0.000361 sec (of wall-clock time) 0.000570 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -171665.684
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 16.096 second
+Computing log-likelihood of 98 initial trees ... 33.761 seconds
+Current best score: -164173.970
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 2.9007 secs using 88.68% CPU
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -164167.025
+Current log-likelihood at step 1: -164162.932
+Current log-likelihood at step 2: -164162.440
+Current log-likelihood at step 3: -164162.239
+Current log-likelihood at step 4: -164162.068
+Current log-likelihood at step 5: -164161.923
+Current log-likelihood at step 6: -164161.793
+Current log-likelihood at step 7: -164161.671
+Current log-likelihood at step 8: -164161.551
+Current log-likelihood at step 9: -164161.410
+Current log-likelihood at step 10: -164161.306
+Current log-likelihood at step 11: -164161.201
+Current log-likelihood at step 12: -164161.086
+Current log-likelihood at step 13: -164160.991
+Parameters optimization took 12 rounds (13.977 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -164160.991
+Optimizing NNI: done in 4.97994 secs using 89.35% CPU
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -164144.979
+Current log-likelihood at step 1: -164128.621
+Current log-likelihood at step 2: -164127.202
+Current log-likelihood at step 3: -164126.385
+Current log-likelihood at step 4: -164125.473
+Current log-likelihood at step 5: -164124.441
+Current log-likelihood at step 6: -164123.509
+Current log-likelihood at step 7: -164122.597
+Current log-likelihood at step 8: -164121.526
+Current log-likelihood at step 9: -164120.643
+Current log-likelihood at step 10: -164119.914
+Current log-likelihood at step 11: -164119.337
+Current log-likelihood at step 12: -164118.863
+Current log-likelihood at step 13: -164118.460
+Current log-likelihood at step 14: -164118.149
+Current log-likelihood at step 15: -164117.583
+Current log-likelihood at step 16: -164117.311
+Current log-likelihood at step 17: -164117.085
+Current log-likelihood at step 18: -164116.767
+Current log-likelihood at step 19: -164116.571
+Current log-likelihood at step 20: -164116.356
+Current log-likelihood at step 21: -164116.171
+Current log-likelihood at step 22: -164115.987
+Current log-likelihood at step 23: -164115.803
+Current log-likelihood at step 24: -164115.616
+Current log-likelihood at step 25: -164115.442
+Current log-likelihood at step 26: -164115.279
+Current log-likelihood at step 27: -164115.123
+Current log-likelihood at step 28: -164114.967
+Current log-likelihood at step 29: -164114.817
+Current log-likelihood at step 30: -164114.671
+Current log-likelihood at step 31: -164114.523
+Current log-likelihood at step 32: -164114.375
+Current log-likelihood at step 33: -164114.222
+Current log-likelihood at step 34: -164114.064
+Current log-likelihood at step 35: -164113.891
+Current log-likelihood at step 36: -164113.694
+Current log-likelihood at step 37: -164113.515
+Current log-likelihood at step 38: -164113.326
+Current log-likelihood at step 39: -164113.137
+Current log-likelihood at step 40: -164112.942
+Current log-likelihood at step 41: -164112.747
+Current log-likelihood at step 42: -164112.554
+Current log-likelihood at step 43: -164112.363
+Current log-likelihood at step 44: -164112.181
+Current log-likelihood at step 45: -164111.544
+Current log-likelihood at step 46: -164111.387
+Current log-likelihood at step 47: -164111.244
+Current log-likelihood at step 48: -164111.113
+Current log-likelihood at step 49: -164110.985
+Current log-likelihood at step 50: -164110.842
+Current log-likelihood at step 51: -164110.736
+Current log-likelihood at step 52: -164110.638
+Parameters optimization took 51 rounds (52.766 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -164110.638
+Optimizing NNI: done in 5.07068 secs using 87.62% CPU
+Optimizing NNI: done in 4.84161 secs using 88.54% CPU
+Optimizing NNI: done in 5.61261 secs using 88.85% CPU
+Optimizing NNI: done in 4.93528 secs using 88.78% CPU
+Optimizing NNI: done in 4.39854 secs using 88.84% CPU
+Optimizing NNI: done in 5.31237 secs using 89.03% CPU
+Optimizing NNI: done in 4.68825 secs using 88.64% CPU
+Optimizing NNI: done in 6.74152 secs using 88.77% CPU
+Iteration 10 / LogL: -164123.265 / Time: 0h:4m:39s
+Optimizing NNI: done in 4.2489 secs using 88.23% CPU
+Optimizing NNI: done in 5.92405 secs using 87.72% CPU
+Optimizing NNI: done in 7.16484 secs using 88.86% CPU
+Optimizing NNI: done in 6.46065 secs using 88.37% CPU
+Optimizing NNI: done in 7.76615 secs using 89.04% CPU
+Optimizing NNI: done in 6.30117 secs using 88.22% CPU
+Optimizing NNI: done in 6.76389 secs using 87.88% CPU
+Optimizing NNI: done in 8.64964 secs using 89.07% CPU
+Optimizing NNI: done in 7.61102 secs using 88.65% CPU
+Optimizing NNI: done in 5.82211 secs using 88.16% CPU
+Iteration 20 / LogL: -164115.831 / Time: 0h:5m:46s
+Finish initializing candidate tree set (7)
+Current best tree score: -164110.638 / CPU time: 233.759
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 6.57849 secs using 86.07% CPU
+Optimizing NNI: done in 4.76432 secs using 87.43% CPU
+Optimizing NNI: done in 6.82665 secs using 85.28% CPU
+Optimizing NNI: done in 6.3162 secs using 86.52% CPU
+Optimizing NNI: done in 6.62043 secs using 87.18% CPU
+Optimizing NNI: done in 6.86029 secs using 86.05% CPU
+Optimizing NNI: done in 3.97577 secs using 85.78% CPU
+Optimizing NNI: done in 6.70378 secs using 85.79% CPU
+Optimizing NNI: done in 7.33925 secs using 87.38% CPU
+Optimizing NNI: done in 5.35937 secs using 86.67% CPU
+Iteration 30 / LogL: -164123.361 / Time: 0h:6m:48s (0h:16m:54s left)
+Optimizing NNI: done in 6.79629 secs using 86.64% CPU
+Optimizing NNI: done in 5.50484 secs using 86.76% CPU
+Optimizing NNI: done in 4.59403 secs using 86.05% CPU
+Optimizing NNI: done in 4.8653 secs using 85.74% CPU
+Optimizing NNI: done in 4.98858 secs using 85.71% CPU
+Optimizing NNI: done in 6.03708 secs using 85.65% CPU
+Optimizing NNI: done in 4.74913 secs using 86.49% CPU
+Optimizing NNI: done in 5.53423 secs using 86.52% CPU
+Optimizing NNI: done in 5.06669 secs using 86.72% CPU
+Optimizing NNI: done in 6.07845 secs using 86.33% CPU
+Iteration 40 / LogL: -164110.732 / Time: 0h:7m:43s (0h:12m:17s left)
+Optimizing NNI: done in 4.59336 secs using 86.98% CPU
+Optimizing NNI: done in 7.51273 secs using 86.75% CPU
+Optimizing NNI: done in 7.78448 secs using 86.94% CPU
+Optimizing NNI: done in 6.58667 secs using 86.72% CPU
+Optimizing NNI: done in 4.99607 secs using 86.06% CPU
+Optimizing NNI: done in 4.05732 secs using 86.78% CPU
+Optimizing NNI: done in 7.16691 secs using 86.78% CPU
+Optimizing NNI: done in 5.81785 secs using 86.52% CPU
+Optimizing NNI: done in 6.43985 secs using 85.84% CPU
+Optimizing NNI: done in 6.06823 secs using 86.52% CPU
+Iteration 50 / LogL: -164115.787 / Time: 0h:8m:45s (0h:9m:17s left)
+Log-likelihood cutoff on original alignment: -164229.323
+Optimizing NNI: done in 3.6337 secs using 87.18% CPU
+Optimizing NNI: done in 6.46639 secs using 86.75% CPU
+Optimizing NNI: done in 3.16495 secs using 86.12% CPU
+Optimizing NNI: done in 8.47095 secs using 86.61% CPU
+Optimizing NNI: done in 5.12681 secs using 86.19% CPU
+Optimizing NNI: done in 7.27128 secs using 87.17% CPU
+Optimizing NNI: done in 4.44307 secs using 86.27% CPU
+Optimizing NNI: done in 4.43306 secs using 86.37% CPU
+Optimizing NNI: done in 6.34119 secs using 87.24% CPU
+Optimizing NNI: done in 5.22487 secs using 86.29% CPU
+Iteration 60 / LogL: -164115.821 / Time: 0h:9m:41s (0h:6m:53s left)
+Optimizing NNI: done in 5.49459 secs using 87.14% CPU
+Optimizing NNI: done in 5.10177 secs using 86.67% CPU
+Optimizing NNI: done in 3.75327 secs using 88.18% CPU
+Optimizing NNI: done in 5.55079 secs using 86.94% CPU
+Optimizing NNI: done in 6.6563 secs using 87.02% CPU
+Optimizing NNI: done in 6.76329 secs using 87.26% CPU
+Optimizing NNI: done in 5.923 secs using 87.19% CPU
+Optimizing NNI: done in 5.18593 secs using 86.68% CPU
+Optimizing NNI: done in 4.78435 secs using 86.01% CPU
+Optimizing NNI: done in 6.18111 secs using 86.07% CPU
+Iteration 70 / LogL: -164115.803 / Time: 0h:10m:37s (0h:4m:55s left)
+Optimizing NNI: done in 6.13386 secs using 87.1% CPU
+Optimizing NNI: done in 5.54354 secs using 85.38% CPU
+Optimizing NNI: done in 5.42672 secs using 86.24% CPU
+Optimizing NNI: done in 4.97712 secs using 85.56% CPU
+Optimizing NNI: done in 4.35632 secs using 86.35% CPU
+Optimizing NNI: done in 4.47224 secs using 86.19% CPU
+Optimizing NNI: done in 4.73608 secs using 86.83% CPU
+Optimizing NNI: done in 6.1282 secs using 86.63% CPU
+Optimizing NNI: done in 7.17392 secs using 86.68% CPU
+Optimizing NNI: done in 7.44058 secs using 86.67% CPU
+Iteration 80 / LogL: -164115.977 / Time: 0h:11m:34s (0h:3m:13s left)
+Optimizing NNI: done in 5.14007 secs using 86.58% CPU
+Optimizing NNI: done in 4.19255 secs using 86.56% CPU
+Optimizing NNI: done in 6.01779 secs using 86.07% CPU
+Optimizing NNI: done in 5.07316 secs using 87.19% CPU
+Optimizing NNI: done in 4.07608 secs using 87.99% CPU
+Optimizing NNI: done in 4.68141 secs using 86.72% CPU
+Optimizing NNI: done in 4.48249 secs using 86.89% CPU
+Optimizing NNI: done in 6.44466 secs using 87.09% CPU
+Optimizing NNI: done in 4.40353 secs using 87.33% CPU
+Optimizing NNI: done in 5.39348 secs using 87.03% CPU
+Iteration 90 / LogL: -164110.675 / Time: 0h:12m:25s (0h:1m:40s left)
+Optimizing NNI: done in 5.71753 secs using 87.44% CPU
+Optimizing NNI: done in 8.01137 secs using 86.15% CPU
+Optimizing NNI: done in 5.28051 secs using 85.65% CPU
+Optimizing NNI: done in 4.63637 secs using 86.36% CPU
+Optimizing NNI: done in 6.34852 secs using 86.3% CPU
+Optimizing NNI: done in 5.65906 secs using 85.48% CPU
+Optimizing NNI: done in 5.73093 secs using 85.36% CPU
+Optimizing NNI: done in 5.75216 secs using 85.3% CPU
+Optimizing NNI: done in 6.14074 secs using 86.69% CPU
+Optimizing NNI: done in 6.68253 secs using 86.46% CPU
+Iteration 100 / LogL: -164110.746 / Time: 0h:13m:25s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -164229.323
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 6.30381 secs using 86.48% CPU
+Optimizing NNI: done in 6.11187 secs using 86.36% CPU
+Optimizing NNI: done in 4.72669 secs using 87.29% CPU
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:13m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -164110.638
+Current log-likelihood at step 1: -164110.545
+Current log-likelihood at step 2: -164110.456
+Current log-likelihood at step 3: -164110.377
+Current log-likelihood at step 4: -164110.304
+Current log-likelihood at step 5: -164110.227
+Current log-likelihood at step 6: -164110.157
+Current log-likelihood at step 7: -164110.096
+Current log-likelihood at step 8: -164110.034
+Current log-likelihood at step 9: -164109.980
+Current log-likelihood at step 10: -164109.928
+Current log-likelihood at step 11: -164109.859
+Current log-likelihood at step 12: -164109.812
+Current log-likelihood at step 13: -164109.769
+Current log-likelihood at step 14: -164109.730
+Current log-likelihood at step 15: -164109.689
+Current log-likelihood at step 16: -164109.637
+Current log-likelihood at step 17: -164109.603
+Current log-likelihood at step 18: -164109.534
+Current log-likelihood at step 19: -164109.501
+Current log-likelihood at step 20: -164109.469
+Current log-likelihood at step 21: -164109.438
+Current log-likelihood at step 22: -164109.403
+Current log-likelihood at step 23: -164109.373
+Current log-likelihood at step 24: -164109.344
+Current log-likelihood at step 25: -164109.263
+Current log-likelihood at step 26: -164109.235
+Current log-likelihood at step 27: -164109.207
+Current log-likelihood at step 28: -164109.159
+Current log-likelihood at step 29: -164109.132
+Current log-likelihood at step 30: -164108.017
+Current log-likelihood at step 31: -164107.954
+Current log-likelihood at step 32: -164107.929
+Current log-likelihood at step 33: -164107.904
+Current log-likelihood at step 34: -164107.881
+Current log-likelihood at step 35: -164107.853
+Current log-likelihood at step 36: -164107.830
+Current log-likelihood at step 37: -164107.807
+Current log-likelihood at step 38: -164107.782
+Current log-likelihood at step 39: -164107.760
+Current log-likelihood at step 40: -164107.739
+Current log-likelihood at step 41: -164107.715
+Current log-likelihood at step 42: -164107.687
+Current log-likelihood at step 43: -164107.666
+Current log-likelihood at step 44: -164107.576
+Current log-likelihood at step 45: -164107.556
+Current log-likelihood at step 46: -164107.532
+Current log-likelihood at step 47: -164107.512
+Current log-likelihood at step 48: -164107.493
+Current log-likelihood at step 49: -164106.804
+Current log-likelihood at step 50: -164106.784
+Current log-likelihood at step 51: -164106.757
+Current log-likelihood at step 52: -164106.738
+Current log-likelihood at step 53: -164106.713
+Current log-likelihood at step 54: -164106.631
+Current log-likelihood at step 55: -164106.608
+Current log-likelihood at step 56: -164106.588
+Current log-likelihood at step 57: -164106.570
+Current log-likelihood at step 58: -164106.553
+Current log-likelihood at step 59: -164106.536
+Current log-likelihood at step 60: -164106.514
+Current log-likelihood at step 61: -164106.497
+Current log-likelihood at step 62: -164106.480
+Current log-likelihood at step 63: -164106.287
+Current log-likelihood at step 64: -164106.031
+Current log-likelihood at step 65: -164106.000
+Current log-likelihood at step 66: -164105.985
+Current log-likelihood at step 67: -164105.966
+Current log-likelihood at step 68: -164105.950
+Current log-likelihood at step 69: -164105.936
+Current log-likelihood at step 70: -164105.916
+Current log-likelihood at step 71: -164105.884
+Current log-likelihood at step 72: -164105.869
+Current log-likelihood at step 73: -164105.854
+Current log-likelihood at step 74: -164105.838
+Current log-likelihood at step 75: -164105.824
+Current log-likelihood at step 76: -164105.810
+Current log-likelihood at step 77: -164105.796
+Current log-likelihood at step 78: -164105.782
+Current log-likelihood at step 79: -164105.769
+Current log-likelihood at step 80: -164105.756
+Current log-likelihood at step 81: -164105.743
+Current log-likelihood at step 82: -164105.730
+Current log-likelihood at step 83: -164105.717
+Current log-likelihood at step 84: -164105.704
+Current log-likelihood at step 85: -164105.692
+Current log-likelihood at step 86: -164105.679
+Current log-likelihood at step 87: -164105.667
+Current log-likelihood at step 88: -164105.627
+Current log-likelihood at step 89: -164105.608
+Current log-likelihood at step 90: -164105.505
+Current log-likelihood at step 91: -164105.445
+Current log-likelihood at step 92: -164105.432
+Current log-likelihood at step 93: -164105.419
+Current log-likelihood at step 94: -164105.407
+Current log-likelihood at step 95: -164105.395
+Current log-likelihood at step 96: -164105.384
+Current log-likelihood at step 97: -164105.372
+Current log-likelihood at step 98: -164105.361
+Current log-likelihood at step 99: -164105.349
+Partition-specific rates:  0.545 0.283 0.144 0.695 1.292 0.497 0.611 0.617 0.552 0.518 1.027 0.984 0.742 0.827 0.360 0.601 1.387 1.170 1.325 1.083 0.623 0.644 0.751 0.511 0.835 0.262 0.496 0.482 1.256 1.540 0.136 0.690 0.460 0.545 1.228 2.185 0.829 2.021 0.527 0.561 1.197 0.373 0.675 2.078 0.925 2.303 0.736 0.600 0.307 0.092 0.545 2.024 1.505 1.234 1.333 1.329 1.285 2.140 2.009 1.375 1.035 0.988 0.441 0.578 1.088 0.578 0.153 1.305 2.925 0.990 0.267 0.855 0.589 0.439 1.176 0.225 0.409 2.961 1.562 0.489 1.272 1.510 0.946 0.558 1.402 0.783 0.935 0.618 0.301 1.424 0.654 1.390 1.860 0.883 0.125 0.694 0.368 0.294 0.622 1.166 0.740 0.734 1.186 1.469 0.768 0.409 0.197 0.478 0.775 0.498 1.611 1.189 0.474 0.506 0.753 1.450 0.537 0.733 0.288 1.390 0.709 0.969 0.754 0.149 0.603 0.267 1.273 0.950 0.326 0.240 0.510 1.139 1.096 1.571 0.227 0.310 0.321 1.136 0.673 0.297 1.862 1.523 1.225 1.145 0.586 1.347 1.290 1.376 1.132 1.321 1.504 1.127 1.202 1.043 0.358 0.818 0.944 0.791 0.264 0.936 1.408 1.793 0.717 0.177 0.631 0.999 1.421 1.409 1.549 1.407 1.549 0.143 1.647 0.851 1.477 0.834 0.815 0.276 0.982 0.936 1.478 0.581 0.002 2.049 1.445 0.867 1.894 1.420 0.280 0.666 0.713 0.804 0.741 0.466 0.825 1.609 0.547 0.133 0.607 1.104 0.302 0.988 0.434 1.043 0.030 0.947 0.390 0.699 0.940 0.319 0.351 0.492 0.256 0.386 0.408 1.252 0.785 2.160 0.866 0.555 0.478 0.685 0.384 0.621 1.325 1.082 0.742 0.719 1.656 2.743 0.898 0.370 0.407 1.223 1.328 1.961 2.072 0.863 0.630 0.798 0.538 0.945 1.497 1.356 0.177 0.379 1.722 0.278 0.492 0.912 2.553 0.458 0.578 0.246 1.038 0.484 1.616 0.777 0.498 1.248 0.508 1.462 0.499 0.564 0.210 1.675 0.660 1.440 1.891 0.199 0.590 0.831 1.914 0.486 1.451 0.871 0.618 1.974 0.332 1.283 2.463
+Parameters optimization took 99 rounds (91.330 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to T28_ConcatLoci.charSets.best_model.nex
+BEST SCORE FOUND : -164105.349
+Creating bootstrap support values...
+Split supports printed to NEXUS file T28_ConcatLoci.charSets.splits.nex
+Total tree length: 0.607
+
+Total number of iterations: 103
+CPU time used for tree search: 626.697 sec (0h:10m:26s)
+Wall-clock time used for tree search: 710.291 sec (0h:11m:50s)
+Total CPU time used: 822.420 sec (0h:13m:42s)
+Total wall-clock time used: 914.770 sec (0h:15m:14s)
+
+Computing bootstrap consensus tree...
+Reading input file T28_ConcatLoci.charSets.splits.nex...
+28 taxa and 110 splits.
+Consensus tree written to T28_ConcatLoci.charSets.contree
+Reading input trees file T28_ConcatLoci.charSets.contree
+Log-likelihood of consensus tree: -164105.349
+
+Analysis results written to: 
+  IQ-TREE report:                T28_ConcatLoci.charSets.iqtree
+  Maximum-likelihood tree:       T28_ConcatLoci.charSets.treefile
+  Likelihood distances:          T28_ConcatLoci.charSets.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          T28_ConcatLoci.charSets.splits.nex
+  Consensus tree:                T28_ConcatLoci.charSets.contree
+  Screen log file:               T28_ConcatLoci.charSets.log
+
+Date and Time: Mon Dec  5 20:43:02 2022
