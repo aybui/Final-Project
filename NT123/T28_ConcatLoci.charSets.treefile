@@ -1,1 +1,122 @@
-(I21914___APH_Encarsia_bimaculata_seq1:0.2979114943,(I21921_APH_Centrodora_sp_seq1:0.3517572496,(((I21928_EUL_Euderus_sp_seq1:0.2462260393,((I26378_MYR_Gonatocerus_fuscicornis_seq1:0.4460552256,I27384_MYR_Anagrus_doanei_seq1:0.3353183134)100:0.1859043731,I27399_EUL_Elachertus_cacoeciae_seq1:0.2663975976)54:0.0382897132)75:0.0420607154,I21958_EUP_Anastus_sp_seq1:0.2204141167)100:0.0469969101,(((((I23224_ENC_Anagyrus_sp_seq1:0.2170799645,I23994_ENC_Hexacladia_sp_seq1:0.2835776389)100:0.0311475447,((((I23255_ENC_Trjapitzinellus_obscurus_seq1:0.1177071617,I23985_ENC_Metaphycus_sp_seq1:0.1336708600)95:0.0146752410,(I23989_ENC_Psyllaephagus_sp_seq1:0.0409320787,I23990_ENC_Acerophagus_flavus_seq1:0.1697813574)100:0.0654041041)100:0.0546436036,(((I23986_ENC_Cheiloneurus_fulvescens_seq1:0.0508411813,I8134_ENC_Encyrtus_sp_seq1:0.0487222156)100:0.0678280525,I23983_ENC_Eusemion_cornigerum_seq1:0.0948701996)100:0.0228482142,(I23988_ENC_Mayridia_myrlea_seq1:0.1287862572,((I23991_ENC_Austroencyrtus_sp_seq1:0.0737089392,I23992_ENC_Ceballasia_dusmeti_seq1:0.1408422420)100:0.0280919939,I23984_ENC_Ooencyrtus_kuvanae_seq1:0.1553575721)99:0.0124588085)100:0.0169729878)100:0.0683116649)100:0.0812654211,((I23995_ENC_Ericydnus_sp_seq1:0.1334327233,(I27444_ENC_Savzdargia_hofferi_seq1:0.0092912583,I24058_ENC_Savzdargia_hofferi_seq1:0.0132865783)100:0.1570609427)73:0.0195136797,I27447_ENC_Charitopus_sp_seq1:0.3253779884)100:0.0226088693)61:0.0175655022)100:0.0658561475,I23993_ENC_Aenastus_sp_seq1:0.1893215547)100:0.0633420104,I26414_APH_Cales_berryi_seq1:0.3974471130)89:0.0233067035,I24010_ENC_Calosota_vernalis_seq1:0.1815246273)91:0.0323459790)88:0.0265286500)99:0.0362517791,I23969_APH_Coccophagus_philippiae_seq1:0.1883392306);
+#NEXUS
+begin taxa;
+	dimensions ntax=28;
+	taxlabels
+	I21914___APH_Encarsia_bimaculata_seq1
+	I21921_APH_Centrodora_sp_seq1
+	I21928_EUL_Euderus_sp_seq1
+	I21958_EUP_Anastus_sp_seq1
+	I23224_ENC_Anagyrus_sp_seq1
+	I23255_ENC_Trjapitzinellus_obscurus_seq1
+	I23969_APH_Coccophagus_philippiae_seq1
+	I23983_ENC_Eusemion_cornigerum_seq1
+	I23984_ENC_Ooencyrtus_kuvanae_seq1
+	I23985_ENC_Metaphycus_sp_seq1
+	I23986_ENC_Cheiloneurus_fulvescens_seq1
+	I23988_ENC_Mayridia_myrlea_seq1
+	I23989_ENC_Psyllaephagus_sp_seq1
+	I23990_ENC_Acerophagus_flavus_seq1
+	I23991_ENC_Austroencyrtus_sp_seq1
+	I23992_ENC_Ceballasia_dusmeti_seq1
+	I23993_ENC_Aenastus_sp_seq1
+	I23994_ENC_Hexacladia_sp_seq1
+	I23995_ENC_Ericydnus_sp_seq1
+	I24010_ENC_Calosota_vernalis_seq1
+	I24058_ENC_Savzdargia_hofferi_seq1
+	I26378_MYR_Gonatocerus_fuscicornis_seq1
+	I26414_APH_Cales_berryi_seq1
+	I27384_MYR_Anagrus_doanei_seq1
+	I27399_EUL_Elachertus_cacoeciae_seq1
+	I27444_ENC_Savzdargia_hofferi_seq1
+	I27447_ENC_Charitopus_sp_seq1
+	I8134_ENC_Encyrtus_sp_seq1
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (I21914___APH_Encarsia_bimaculata_seq1[&!color=#f5bb1d]:0.297911,(I21921_APH_Centrodora_sp_seq1[&!color=#f5bb1d]:0.351757,(((I21928_EUL_Euderus_sp_seq1[&!color=#3780ed]:0.246226,((I26378_MYR_Gonatocerus_fuscicornis_seq1[&!color=#cb1aeb]:0.446055,I27384_MYR_Anagrus_doanei_seq1[&!color=#cb1aeb]:0.335318)[&"bootstrap values"=100,!rotate=true]:0.185904,I27399_EUL_Elachertus_cacoeciae_seq1[&!color=#3780ed]:0.266398)[&"bootstrap values"=54,!rotate=true]:0.03829)[&"bootstrap values"=75,!rotate=true]:0.042061,I21958_EUP_Anastus_sp_seq1[&!color=#27cc27]:0.220414)[&"bootstrap values"=100]:0.046997,(((((I23224_ENC_Anagyrus_sp_seq1[&!color=#fa8a11]:0.21708,I23994_ENC_Hexacladia_sp_seq1[&!color=#fa1629]:0.283578)[&"bootstrap values"=100,!rotate=true,!color=#fa8a11]:0.031148,((((I23255_ENC_Trjapitzinellus_obscurus_seq1[&!color=#fa1629]:0.117707,I23985_ENC_Metaphycus_sp_seq1[&!color=#fa1629]:0.133671)[&"bootstrap values"=95,!rotate=true,!color=#fa1629]:0.014675,(I23989_ENC_Psyllaephagus_sp_seq1[&!color=#fa1629]:0.040932,I23990_ENC_Acerophagus_flavus_seq1[&!color=#fa1629]:0.169781)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.065404)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.054644,(((I23986_ENC_Cheiloneurus_fulvescens_seq1[&!color=#fa1629]:0.050841,I8134_ENC_Encyrtus_sp_seq1[&!color=#fa1629]:0.048722)[&"bootstrap values"=100,!color=#fa1629]:0.067828,I23983_ENC_Eusemion_cornigerum_seq1[&!color=#fa1629]:0.09487)[&"bootstrap values"=100,!rotate=false,!color=#fa1629]:0.022848,(I23988_ENC_Mayridia_myrlea_seq1[&!color=#fa1629]:0.128786,((I23991_ENC_Austroencyrtus_sp_seq1[&!color=#fa1629]:0.073709,I23992_ENC_Ceballasia_dusmeti_seq1[&!color=#fa1629]:0.140842)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.028092,I23984_ENC_Ooencyrtus_kuvanae_seq1[&!color=#fa1629]:0.155358)[&"bootstrap values"=99,!color=#fa1629]:0.012459)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.016973)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.068312)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.081265,((I23995_ENC_Ericydnus_sp_seq1[&!color=#fa8a11]:0.133433,(I27444_ENC_Savzdargia_hofferi_seq1[&!color=#fa770c]:0.009291,I24058_ENC_Savzdargia_hofferi_seq1[&!color=#fa770c]:0.013287)[&"bootstrap values"=100,!color=#fa8a11]:0.157061)[&"bootstrap values"=73,!rotate=true,!color=#fa8a11]:0.019514,I27447_ENC_Charitopus_sp_seq1[&!color=#fa8a11]:0.325378)[&"bootstrap values"=100,!color=#fa8a11]:0.022609)[&"bootstrap values"=61,!color=#fa1629]:0.017566)[&"bootstrap values"=100,!rotate=true,!color=#fa1629]:0.065856,I23993_ENC_Aenastus_sp_seq1[&!color=#fa8a11]:0.189322)[&"bootstrap values"=100,!color=#fa1629]:0.063342,I26414_APH_Cales_berryi_seq1[&!color=#f5bb1d]:0.397447)[&"bootstrap values"=89]:0.023307,I24010_ENC_Calosota_vernalis_seq1[&!color=#27cc27]:0.181525)[&"bootstrap values"=91]:0.032346)[&"bootstrap values"=88,!color=#f5bb1d]:0.026529)[&"bootstrap values"=99,!color=#f5bb1d]:0.036252,I23969_APH_Coccophagus_philippiae_seq1[&!color=#f5bb1d]:0.188339);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap values";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap values";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
