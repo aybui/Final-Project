@@ -1,11 +1,3 @@
-// for all loci
-	// parse refs from homolog file
-	// hash refs
-	// for homologs in this locus
-		// for all reading frames
-			// translate
-			// if translate fails, try again with another reference map
-
 import java.io.*;
 import java.io.File;
 import java.lang.reflect.Array;
@@ -17,9 +9,9 @@ public class TranslateHomologs3 {
 
 	public static void main(String[] args) {
 
-		String inFileStem = args[0]; // ../HomologsMultipleRefs/T490_L
-		File refFile = new File( args[1] ); // ../references.txt
-		int nLoci = Integer.parseInt(args[2]); // 187
+		String inFileStem = args[0]; 
+		File refFile = new File( args[1] ); 
+		int nLoci = Integer.parseInt(args[2]); 
 		int K = 15;
 
 		ArrayList<String> refNames = readReferenceFile( refFile );
@@ -49,7 +41,6 @@ public class TranslateHomologs3 {
 				}
 			}
 
-			// for every homolog, try translating in all reference frames.  if that fails, try again with another reference.
 			ArrayList<TranslatedSequence> translatedHomologs = new ArrayList<>();
 
 			for(Sequence homolog : homologs)
@@ -180,7 +171,7 @@ public class TranslateHomologs3 {
 				}
 			}
 
-			//count the number of valid amino acids that were translated for this reading frame...
+			//count the number of valid amino acids that were translated for this reading frame
 			int currNAAs=0;
 			for(int x=0; x<lenAA; x++){
 				if(refPos[x]>-1){currNAAs++;}
